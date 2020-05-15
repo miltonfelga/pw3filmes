@@ -1,0 +1,12 @@
+
+.Header{
+    display: flex;
+    justify-content: space-between; 
+  }
+
+.Header input{
+    border-radius: 10px;
+    border:0;
+    width: 400px;
+    margin: 0 10px ;
+  }
