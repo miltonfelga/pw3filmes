@@ -1,7 +1,15 @@
-
 .Header{
     display: flex;
+    height: 40px;
+    align-items: center;
     justify-content: space-between; 
+    background-color: #000;
+  }
+
+.Logo{
+    margin: 20px;
+    border-radius: 10px;
+    color: #71FB6E;
   }
 
 .Header input{
@@ -10,3 +18,8 @@
     width: 400px;
     margin: 0 10px ;
   }
+
+.Pesquisa {
+  background-color: #000;
+  border: none;
+}
