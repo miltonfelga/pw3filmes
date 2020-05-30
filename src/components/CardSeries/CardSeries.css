@@ -1,0 +1,22 @@
+.cardSerie {
+    color: rgb(255, 255, 255);   
+    max-width: 150px;
+    margin: 15px;
+}
+
+.posterImage {
+    padding: 100px;
+    background-image: url('http://br.web.img3.acsta.net/c_210_280/pictures/14/08/27/10/10/097532.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.posterImage background-image {
+    height: auto;
+    width: auto;
+}
+
+.cardDetail {
+    text-align: center;
+}
+

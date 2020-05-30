@@ -13,10 +13,12 @@
   }
 
 .Header input{
+    background-color: var(--background-item-color);
     border-radius: 10px;
     border:0;
     width: 400px;
     margin: 0 10px ;
+    color: honeydew;
   }
 
 .Pesquisa {

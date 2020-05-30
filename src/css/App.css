@@ -1,7 +1,23 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 .App {
   text-align: center;
-  background-color: #141414;
+  background-image: url('https://pocahontasreframed.com/wp-content/uploads/2019/02/prsff_about1.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
   min-height: 100vh;
+  --background-item-color: #141414;
+}
+
+.logoTitle {
+  color: rgb(202, 5, 28);
+}
+
+.conteudo {
+  margin:  30px 15%;
+  width: 70%;
+  align-items: center;
+  background-color: var(--background-item-color);
 }
 
 
