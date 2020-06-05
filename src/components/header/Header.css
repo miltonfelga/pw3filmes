@@ -1,25 +1,23 @@
-.Header{
-    display: flex;
-    height: 40px;
-    align-items: center;
-    justify-content: space-between; 
-    background-color: #000;
-  }
+.Header {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+}
 
-.Logo{
-    margin: 20px;
-    border-radius: 10px;
-    color: #71FB6E;
-  }
+.Header input {
+  background-color: var(--background-item-color);
+  border-radius: 10px;
+  border: 0;
+  width: 400px;
+  margin: 0 10px;
+  color: honeydew;
+}
 
-.Header input{
-    background-color: var(--background-item-color);
-    border-radius: 10px;
-    border:0;
-    width: 400px;
-    margin: 0 10px ;
-    color: honeydew;
-  }
+.Logo {
+  margin: 20px;
+}
 
 .Pesquisa {
   background-color: #000;

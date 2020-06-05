@@ -1,22 +1,45 @@
 .cardSerie {
-    color: rgb(255, 255, 255);   
-    max-width: 150px;
-    margin: 15px;
+    padding-top: 15px;
+    color: rgb(255, 255, 255);
+    max-width: 250px;
+    min-width: 50px;
+    margin: 5px;
 }
 
 .posterImage {
-    padding: 100px;
-    background-image: url('http://br.web.img3.acsta.net/c_210_280/pictures/14/08/27/10/10/097532.jpg');
+    padding: 20%;
+    background-image: url('https://miro.medium.com/max/300/1*N0akv_M8hMcvwTli4RxNVA.jpeg');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100%;
 }
 
-.posterImage background-image {
-    height: auto;
-    width: auto;
+.posterImage {
+
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.imageText{
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
 }
 
 .cardDetail {
-    text-align: center;
+    text-align: left;
 }
 
+
+h1 {
+    margin: 0;
+}
+
+.posterImage:hover {
+    transform: scale(1.1);
+    opacity: .8;
+}
+
+.posterImage:hover .imageText{
+    text-shadow: black;
+    opacity: 1;
+}
