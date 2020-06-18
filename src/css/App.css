@@ -15,7 +15,7 @@
 }
 
 .conteudo {
-  margin:  30px 15%;
+  margin:  30px 10%;
   min-width: 70%;
   align-items: center;
   background-color: var(--background-item-color);
@@ -31,12 +31,15 @@
 
 @media (max-width: 1024px){
   .conteudo {
+    margin:  20px 10%;
     grid-template-columns: repeat(3, 3fr);
 }
 
 }
 @media (max-width: 650px){
   .conteudo {
+    margin: 5%;
+    width: 90%;
     grid-template-columns: repeat(2, 3fr);
 }
 }
