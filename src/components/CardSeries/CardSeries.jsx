@@ -18,3 +18,22 @@ export default function CardSerie() {
         </div>
     )
 }
+
+export function Card() {
+    return (
+        <div className='cardSerie' onClick={window.location = '#'}>
+            <div>
+                <div className='posterCardImage'>
+                    <div className="imageText">
+                    <h1>Game Of Thrones</h1>
+                    </div>
+                </div>
+                <div className='cardDetail'>
+                    <span className="material-icons">star</span>
+                    10
+                </div>
+            </div>
+        </div>
+    )
+}
+

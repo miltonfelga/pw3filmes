@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from "../../components/CardSeries/CardSeries";
+import {Card} from "../../components/CardSeries/CardSeries";
 
 export default function Lancamentos() {
     return (

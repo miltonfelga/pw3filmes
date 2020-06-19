@@ -5,6 +5,7 @@ import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import './rotas.css';
 import menuIcon from '../../img/menuIcon.png';
 import flame from '../../img/flame.png';
+import pipoca from '../../img/pipoca.png';
 
 
 import Lancamentos from '../../pages/lancamentos/Lancamentos';
@@ -21,9 +22,8 @@ export default function Rotas() {
                 <div className='menu'>
                     <h3>CATEGORIAS</h3>
                     <nav>
-                        <Link to='/lancamentos' className='caminho'>Lançamentos</Link>
+                        <Link to='/lancamentos' className='caminho'><img src={pipoca} alt='pipoca'/>Lançamentos</Link>
                         <Link to='/emAlta' className='caminho'><img src={flame} alt='flame'/>Em Alta</Link>                        
-                        <Link to='/sobre' className='caminho'>Sobre</Link>
                     </nav>
                 </div>
             </div>

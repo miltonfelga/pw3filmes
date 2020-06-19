@@ -32,22 +32,29 @@ nav {
 }
 
 .caminho {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center 
+}
+
+.caminho {
     background-color: rgba(19, 20, 21, 0.8);
     text-decoration: none;
     color: white;
     transition: all .2s linear;
     height: 50px;
-    border-bottom: 1px solid #141414;   
+    border-bottom: 1px solid #141414;  
 }
 
 .caminho img{
-    margin-top: 9.5px;
+    margin-right: 20px;
 }
 
 .caminho:hover {
     background-color: black;
-    border-bottom: 2px solid #710200;
-    
+    border-bottom: 2px solid #315BFE;    
 }
 
 #check:checked ~ .menu {
