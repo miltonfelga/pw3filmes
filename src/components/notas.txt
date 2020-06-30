@@ -1,0 +1,18 @@
+            <div className='sideMenu'>
+
+                <input type='checkbox' id='check' />
+                <label id='menuIcon' for='check'><img src={menuIcon} alt='menuIcon'/></label>
+                <div className='menu'>
+                    <h3>CATEGORIAS</h3>
+                    <nav>
+                        <Link to='/lancamentos' className='caminho'><img src={pipoca} alt='pipoca'/>Lançamentos</Link>
+                        <Link to='/emAlta' className='caminho'><img src={flame} alt='flame'/>Em Alta</Link>                        
+                        <Link to='/sobre' className='caminho'>Sobre</Link>                        
+                        <Link to='/busca' className='caminho'>busca</Link>                        
+                    </nav>
+                </div>
+            </div>
+
+
+
+            //onClick:   onClick={window.location = '#'}

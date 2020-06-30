@@ -1,68 +1,57 @@
 .cardSerie {
     padding-top: 15px;
     color: rgb(255, 255, 255);
-    max-width: 250px;
+    max-width: 200px;
     min-width: 50px;
-    margin: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
 }
 
 .posterImage {
-    padding: 20%;
-    background-image: url('https://miro.medium.com/max/300/1*N0akv_M8hMcvwTli4RxNVA.jpeg');
     background-repeat: no-repeat;
     background-size: 100%;
-}
-
-.posterCardImage {
-    padding: 20%;
-    background-image: url('https://www.agendor.com.br/blog/wp-content/uploads/2015/07/game-of-thrones-vendas.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
+    height: 300px;
     cursor: pointer;
     transition: all .3s;
 }
 
-.posterImage {
-
-    cursor: pointer;
-    transition: all .3s;
-}
-
-.imageText{
-    text-align: center;
+.imageText {
+    display: flex;
+    width: 100%;
+    /*padding-block-start: 90%;*/
     opacity: 0;
     transition: 0.5s;
+    height: 100%;
+    align-items: flex-end;
 }
 
 .cardDetail {
     text-align: left;
-    border-bottom: 1px solid rgb(19, 20, 21);
+    border-bottom: 1px solid #fff;
 }
 
-
-h1 {
-    margin: 0;
+h3 {
+  color: #fff;  
 }
 
 .posterImage:hover {
     transform: scale(1.1);
-    opacity: .8;
-}
-
-.posterImage:hover .imageText{
-    text-shadow: black;
     opacity: 1;
 }
 
-
-
+.posterImage:hover .imageText {
+    background-Image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1));
+    text-shadow: black;
+    opacity: 1;
+}
 
 .posterCardImage:hover {
     transform: scale(1.1);
     opacity: .8;
 }
 
-.posterCardImage:hover .imageText{
+.posterCardImage:hover .imageText {
     text-shadow: black;
     opacity: 1;
 }

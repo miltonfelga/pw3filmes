@@ -1,39 +1,24 @@
 import React from 'react';
 import './CardSeries.css'
 
-export default function CardSerie() {
+export default function CardSerie({ serie }) {
+    const imgUrl = 'https://image.tmdb.org/t/p/w200/';
     return (
-        <div className='cardSerie' onClick={window.location = '#'}>
+        <div className='cardSerie'>
             <div>
-                <div className='posterImage'>
+                <div className='posterImage' style={ {backgroundImage: `url(${imgUrl}${serie.poster_path})`}}>
                     <div className="imageText">
-                    <h1>Flash</h1>
+                        
+                        <p>{serie.overview.substring(0, 80)}...</p>
                     </div>
                 </div>
                 <div className='cardDetail'>
                     <span className="material-icons">star</span>
-                    9,5
+                    {serie.vote_average}
                 </div>
             </div>
         </div>
     )
 }
 
-export function Card() {
-    return (
-        <div className='cardSerie' onClick={window.location = '#'}>
-            <div>
-                <div className='posterCardImage'>
-                    <div className="imageText">
-                    <h1>Game Of Thrones</h1>
-                    </div>
-                </div>
-                <div className='cardDetail'>
-                    <span className="material-icons">star</span>
-                    10
-                </div>
-            </div>
-        </div>
-    )
-}
 

@@ -14,7 +14,7 @@
 .menu {
     z-index: 1;
     background-color: rgba(19, 20, 21, 0.7);
-    height: 100%;
+    height: max-content;
     width: 200px;
     position: absolute;
     transition: all .2s linear;
@@ -51,6 +51,7 @@ nav {
 .caminho img{
     margin-right: 20px;
 }
+
 
 .caminho:hover {
     background-color: black;
