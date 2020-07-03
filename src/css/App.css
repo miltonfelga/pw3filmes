@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 .App {
-
   text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   --background-item-color: #141414;
   padding-bottom: 20px;
 }

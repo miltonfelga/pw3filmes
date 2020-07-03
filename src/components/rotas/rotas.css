@@ -14,7 +14,7 @@
 .menu {
     z-index: 1;
     background-color: rgba(19, 20, 21, 0.7);
-    height: max-content;
+    height: 100%;
     width: 200px;
     position: absolute;
     transition: all .2s linear;
