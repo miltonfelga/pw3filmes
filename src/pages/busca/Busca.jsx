@@ -1,16 +1,14 @@
 import React, { Fragment, useEffect, useState } from 'react';
-import axios from 'axios';
+import api, { api_options } from '../../services/api';
 import CardSerie from '../../components/CardSeries/CardSeries';
 
 export default function Busca(props) {
 
     const [series, setSeries] = useState([]);
-    const urlAPI = "https://api.themoviedb.org/3/search/tv/" +
-                    props.location.search +
-                    "&api_key=c0d8598e0d3c812f79b7ca74fde1a95c&language=pt-BR";
+    const urlAPI = "search/tv/" + props.location.search;
     async function load() {
         try {
-            const resposta = await axios.get(urlAPI);
+            const resposta = await api.get(urlAPI, api_options());
             setSeries(resposta.data.results);
         } catch (erro) {
             console.log(erro);
