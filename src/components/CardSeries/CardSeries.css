@@ -26,6 +26,10 @@
     align-items: flex-end;
 }
 
+a {
+    text-decoration: none;
+}
+
 .cardDetail {
     text-align: left;
     border-bottom: 1px solid #fff;

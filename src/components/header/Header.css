@@ -21,10 +21,12 @@
 
 .Logo {
   /*margin: 20px;*/
+  margin-top: .6vh;
   margin-left: 40%;
 }
 
 .Pesquisa {
-  background-color: #000;
+  cursor: pointer;
+  background-color: transparent;
   border: none;
 }

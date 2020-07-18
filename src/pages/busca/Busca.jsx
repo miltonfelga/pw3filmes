@@ -6,6 +6,7 @@ export default function Busca(props) {
 
     const [series, setSeries] = useState([]);
     const urlAPI = "search/tv/" + props.location.search;
+    
     async function load() {
         try {
             const resposta = await api.get(urlAPI, api_options());

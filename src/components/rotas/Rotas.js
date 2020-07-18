@@ -14,6 +14,7 @@ import Lancamentos from '../../pages/lancamentos/Lancamentos';
 import Sobre from '../../pages/sobre/Sobre';
 import emAlta from '../../pages/emAlta/emAlta';
 import Busca from '../../pages/busca/Busca';
+import Detalhe from '../../pages/detalhe/Detalhe';
 
 
 export default function Rotas() {
@@ -29,8 +30,7 @@ export default function Rotas() {
                     <nav>
                         <Link to='/lancamentos' className='caminho'><img src={pipoca} alt='pipoca' />Lançamentos</Link>
                         <Link to='/emAlta' className='caminho'><img src={flame} alt='flame' />Em Alta</Link>
-                        <Link to='/sobre' className='caminho'>Sobre</Link>
-                        <Link to='/busca' className='caminho'>busca</Link>
+                        
                     </nav>
                 </div>
             </div>
@@ -42,6 +42,7 @@ export default function Rotas() {
                 <Route path='/sobre' component={Sobre} />
                 <Route path='/emAlta' component={emAlta} />
                 <Route path='/busca' component={Busca} />
+                <Route path='/detalhe/:serieId' component={Detalhe} />
             </Switch>
         </BrowserRouter >
     );

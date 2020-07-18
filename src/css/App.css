@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 .App {
-  text-align: center;
+
   --background-item-color: #141414;
   padding-bottom: 20px;
 }
@@ -13,7 +13,6 @@
 .conteudo {
   margin:  30px 10%;
   min-width: 70%;
-  align-items: center;
   background-color: var(--background-item-color);
 }
 
