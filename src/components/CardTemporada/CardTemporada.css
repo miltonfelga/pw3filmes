@@ -1,0 +1,10 @@
+.card-temporada {
+   display: flex;
+   margin: 20px;
+   color: #fff;
+   border-bottom: 2px;
+}
+
+.temporada-info {
+    margin: 20px;
+}

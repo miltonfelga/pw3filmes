@@ -6,7 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-image: url('https://cdn.abcotvs.com/dip/images/6011023_031320-cc-ss-empty-theater-img.jpg');
+  /*background-image: url('https://cdn.abcotvs.com/dip/images/6011023_031320-cc-ss-empty-theater-img.jpg');*/
+  background-color: #000;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
