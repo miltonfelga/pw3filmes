@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Header.css";
-import { withRouter } from 'react-router-dom'
+import { withRouter, Link } from 'react-router-dom'
 import Icon from "./pesquisa.png";
 import miniLogo from '../../img/miniLogo.png';
 
@@ -13,9 +13,13 @@ function Header(props) {
         props.history.push("/busca?query=" + search);
     }
 
+    function home(){
+        
+    }
+
     return (
         <div className="Header">
-            <img className="Logo" src={miniLogo} alt="miniLogo" />
+            <Link to='/lancamentos' className='Logo'><img className="" src={miniLogo} alt="miniLogo"/></Link>            
             <div className="searchBar">
                 <form onSubmit={ buscar}>
                     <input type="text" name="query" id="query" 
