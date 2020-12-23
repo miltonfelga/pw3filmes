@@ -27,7 +27,7 @@ export default function EmAlta(props) {
     useEffect(() => {load();}, []);
     return (
         <Fragment>
-            <div className="conteudo">
+            <div className="conteudo"> 
                 {series.map( (serie) => <CardSerie key={serie.id} serie={serie}/>)}
             </div>
         </Fragment>
