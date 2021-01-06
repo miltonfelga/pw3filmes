@@ -5,30 +5,26 @@ import CardSerie from '../../components/CardSeries/CardSeries';
 export default function EmAlta(props) {
 
     const [series, setSeries] = useState([]);
-    const { genre }= props.match.params
-    console.log('este é o numero ' + genre)
-    console.log(useState)
-
-
-    const urlAPI = "discover/tv/" + "?with_genres=" + genre;
+    let genero = props.match.params.genre
 
     async function load() {
         try {
-            //const resposta = await api.get("discover/tv/", api_options(), "?with_genres=18");
-            //const resposta = await api.get("discover/tv/", api_options(), "?with_genres=18");
+            const urlAPI = ("discover/tv/?with_genres=" + genero);
             const resposta = await api.get(urlAPI, api_options());
             setSeries(resposta.data.results);
-            console.log(resposta)
+            console.log(resposta.data.page)
+            //console.log(resposta)
         } catch (erro) {
-            console.log(erro);
+            //console.log(erro);
         }
     }
 
-    useEffect(() => {load();}, []);
+    useEffect(() => {load()}, [props.match.params.genre]);
+
     return (
         <Fragment>
-            <div className="conteudo"> 
-                {series.map( (serie) => <CardSerie key={serie.id} serie={serie}/>)}
+            <div className="conteudo">
+                {series.map((serie) => <CardSerie key={serie.id} serie={serie} />)}
             </div>
         </Fragment>
     );

@@ -21,7 +21,7 @@ function Header(props) {
         <div className="Header">
             <Link to='/lancamentos' className='Logo'><img className="" src={miniLogo} alt="miniLogo"/></Link>            
             <div className="searchBar">
-                <form onSubmit={ buscar}>
+                <form onChange={ buscar}>
                     <input type="text" name="query" id="query" 
                     onChange={e => setSearch(e.target.value)}></input>
                     <button className="Pesquisa"><img src={Icon} alt="Icon" /></button>

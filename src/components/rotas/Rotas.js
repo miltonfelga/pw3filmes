@@ -34,20 +34,22 @@ export default function Rotas() {
                         <Link to='/lancamentos' className='caminho' > Lançamentos </Link>
                         <Link to='/lancamentos' className='caminho' > <img src={sobre} alt='sobreIcon' /> Sobre o projeto </Link>
                         <Link to={`/pT/${16}`}  className='caminho' > Anime </Link>
+                        <Link to={`/pT/${10762}`}  className='caminho' > Kids </Link>
                         <Link to={`/pT/${18}`}  className='caminho' > Drama </Link>
                         <Link to={`/pT/${9648}`}  className='caminho' > Suspense </Link>
-                        <Link to={`/pT/${16}`}  className='caminho' > Terror </Link>
+                        <Link to={`/pT/${10764}`}  className='caminho' > Reality </Link>
                         <Link to={`/pT/${10751}`}  className='caminho' > Familia </Link>
-                        <Link to={`/pT/${16}`}  className='caminho' > Românce </Link>
+                        <Link to={`/pT/${37}`}  className='caminho' > Faroeste </Link>
+                        <Link to={`/pT/${80}`}  className='caminho' > Crime </Link>
                         <Link to={`/pT/${35}`}  className='caminho' > Comédia </Link>
                         <Link to={`/pT/${18}`}  className='caminho' > Ficção científica </Link>
-                        <Link to={`/pT/${16}`}  className='caminho' > Musicais </Link>
+                        <Link to={`/pT/${10766}`}  className='caminho' > Melodrama </Link>
                         <Link to={`/pT/${10759}`}  className='caminho' > Ação e aventura </Link>
                         <Link to={`/pT/${99}`}  className='caminho' > Documentários </Link>
-                        <Link to={`/pT/${16}`}  className='caminho' > Filmes Nacionais </Link>
-                        <Link to={`/pT/${16}`}  className='caminho' > Idependentes </Link>
-                        <Link to={`/pT/${16}`}  className='caminho' > +18 </Link>
-                        <Link to={`/pT/${16}`}  className='caminho' > <img src={pipoca} alt='pipoca' />Mais<img src={pipoca} alt='pipoca' /> </Link>
+                        <Link to={`/pT/${10767}`}  className='caminho' > Talk </Link>
+                        <Link to={`/pT/${10768}`}  className='caminho' > Guerra e Politica </Link>
+                        <Link to={`/pT/${0}`}  className='caminho' > +18 </Link>
+                        <Link to={`/pT/${0}`}  className='caminho' > <img src={pipoca} alt='pipoca' />Mais<img src={pipoca} alt='pipoca' /> </Link>
                     </nav>
                 </div>
             </div>
