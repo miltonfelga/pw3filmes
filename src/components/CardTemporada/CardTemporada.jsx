@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 import './CardTemporada.css';
 import imgNF from '../../img/noimage.jpg'
 
-const imgBaseUrl = 'http://image.tmdb.org/t/p/w200';
+const imgBaseUrl = 'https://image.tmdb.org/t/p/w200';
 //const imgNF = 'https://bephoaphat.com/uploads/Image-not-found.gif'
 //const imgNF = ''
 //const imgNF = 'https://www.supersizefashion.com/assets/image/sample.jpg'

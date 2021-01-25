@@ -10,8 +10,8 @@ export default function Deatalhe(props) {
     const [detalhe, setDetalhe] = useState([]);
     const [genres, setGenres] = useState([]);
     const [temporadas, setTemp] = useState([]);
-    const imgBaseUrl = 'http://image.tmdb.org/t/p/w300';
-    const imgBackUrl = 'http://image.tmdb.org/t/p/original';
+    const imgBaseUrl = 'https://image.tmdb.org/t/p/w300';
+    const imgBackUrl = 'https://image.tmdb.org/t/p/original';
     const data = new Date(detalhe.first_air_date);
     const data_lancamento = data.toLocaleDateString()
 
