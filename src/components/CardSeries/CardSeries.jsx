@@ -3,7 +3,7 @@ import './CardSeries.css'
 import { NavLink } from 'react-router-dom';
 
 export default function CardSerie({ serie }) {
-    const imgUrl = 'https://image.tmdb.org/t/p/w200/';
+    const imgUrl = 'http://image.tmdb.org/t/p/w200/';
     if (serie.poster_path != null) {
         if (serie.overview === "") serie.overview = "Sem Descrição";
         return (
